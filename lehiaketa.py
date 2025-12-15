@@ -66,7 +66,7 @@ preds = model.predict(X_test)
 
 mae = mean_absolute_error(y_test, preds)
 r2 = r2_score(y_test, preds)
-
+#emaitzak inprimatu
 print(f'Mean Absolute Error: {mae:.2f} EUR, batazbeste zenbat okertu den balioan')
 print(f'R^2 Score: {r2:.4f}, modeloa nola ondo doan azalduz (1.0 perfektua da)')  
 
